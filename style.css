@@ -89,6 +89,17 @@ input[type=button]{
    font-size: 10px;
 }
 
-li{
- 
+
+
+@media (min-width: 900px){
+  .wrapper-head{
+  display: none;
+}
+.wrapper-main{
+  margin-top: 90px;
+}
+img{
+  width: 130px;
+  height: 30px;
+}
 }
